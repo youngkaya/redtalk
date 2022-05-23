@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - RedTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span id="clock"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chats/chat-epl.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/epl.png" class="user-component__avatar" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">EPL</h4>
+              <h6 class="user-component__subtitle">Noooo😭</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">Yesterday</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="chats/chat-fa.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/fa.png" class="user-component__avatar" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">FA</h4>
+              <h6 class="user-component__subtitle">
+                Congratulations, Champion!
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">May 15</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="chats/chat-ucl.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/ucl.png" class="user-component__avatar" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">UCL</h4>
+              <h6 class="user-component__subtitle">You have been final!</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">May 4</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="chats/chat-efl.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/efl.png" class="user-component__avatar" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">EFL</h4>
+              <h6 class="user-component__subtitle">You won the title!</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">February 28</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">3</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="src/clock.js"></script>
+  </body>
+</html>

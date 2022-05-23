@@ -1,0 +1,15 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__friends {
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+
+.friends-screen__friends-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}

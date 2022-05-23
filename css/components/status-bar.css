@@ -1,0 +1,9 @@
+.status-bar {
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar .fa-wifi {
+  margin: 0px 2px;
+}

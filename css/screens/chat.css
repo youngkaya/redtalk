@@ -142,8 +142,8 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 3px;
-  top: 3px;
+  right: 10px;
+  top: 8px;
 }
 
 .reply__column:last-child > i {
@@ -152,10 +152,11 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: tomato;
+  color: white;
   border: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 

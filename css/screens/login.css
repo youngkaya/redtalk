@@ -45,6 +45,7 @@
 
 .login-form input[type="submit"] {
   background: var(--red);
+  color: white;
   cursor: pointer;
   font-size: 16px;
   padding: 20px 0px;
